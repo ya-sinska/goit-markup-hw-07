@@ -490,57 +490,61 @@
       </div>
     </footer>
     <!--  Модальне вікно -->
-    <div class="backdrop is-hidden" data-modal>
+    <div class="backdrop backdrop--hidden" data-modal>
       <div class="modal">
-        <button class="modal-close-btn" type="button" data-modal-close>
-          <svg class="close-black" width="18" height="18">
+        <button class="modal__button-close" type="button" data-modal-close>
+          <svg class="modal__icon" width="18" height="18">
             <use href="./images/sprite.svg#icon-close-black"></use>
           </svg>
         </button>
         <form class="form js-speaker-form">
-          <b class="form-title">Оставьте свои данные, мы вам перезвоним</b>
-          <label class="form-field">
-            <input type="text" name="name" class="form-area" required />
-            <svg class="icon-person" width="18" height="18">
+          <b class="form__title">Оставьте свои данные, мы вам перезвоним</b>
+          <label class="form__field">
+            <input type="text" name="name" class="form__area" required />
+            <svg class="form__icon" width="18" height="18">
               <use href="./images/sprite.svg#icon-person-black"></use>
             </svg>
-            <span class="form-area-text">Имя</span>
+            <span class="form__text">Имя</span>
           </label>
-          <label class="form-field">
-            <input type="tel" name="telephone" class="form-area" required />
-            <svg class="icon-tel" width="18" height="18">
+          <label class="form__field">
+            <input type="tel" name="telephone" class="form__area" required />
+            <svg class="form__icon" width="18" height="18">
               <use href="./images/sprite.svg#icon-phone-black"></use>
             </svg>
 
-            <span class="form-area-text">Телефон</span>
+            <span class="form__text">Телефон</span>
           </label>
-          <label class="form-field">
-            <input type="email" name="mail" class="form-area" required />
-            <svg class="icon-email" width="18" height="18">
+          <label class="form__field">
+            <input type="email" name="mail" class="form__area" required />
+            <svg class="form__icon" width="18" height="18">
               <use href="./images/sprite.svg#icon-email-black"></use>
             </svg>
 
-            <span class="form-area-text">Почта</span>
+            <span class="form__text">Почта</span>
           </label>
-          <label class="form-field-coment">
+          <label class="form__field form__field--large">
             <textarea
               name="coment"
               placeholder="Введите текст"
-              class="form-area-coment"
+              class="form__area form__area--large"
             ></textarea>
-            <span class="form-area-text">Комментарий</span>
+            <span class="form__text">Комментарий</span>
           </label>
-          <label class="form-consent">
+          <label class="consent">
             <input
               type="checkbox"
               name="polici"
               value="consent"
               class="checkbox"
             />
-            <span class="consent-text">Соглашаюсь с рассылкой и принимаю </span>
-            <a href="" class="form-consent-link">Условия договора</a>
+            <span class="consent__text"
+              >Соглашаюсь с рассылкой и принимаю
+            </span>
+            <a href="" class="consent__link">Условия договора</a>
           </label>
-          <button type="submit" class="button modal-btn">Отправить</button>
+          <button type="submit" class="button button--success">
+            Отправить
+          </button>
         </form>
       </div>
     </div>
