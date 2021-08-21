@@ -2,9 +2,9 @@
   border-bottom: 1px solid #ececec;
   &__container {
     @extend %container;
-    @extend %centered;
+    @include centered(null);
   }
   &__nav {
-    @extend %centered;
+    @include centered(null);
   }
 }
