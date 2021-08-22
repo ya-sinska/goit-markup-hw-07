@@ -9,30 +9,28 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
-    />
-    <link rel="stylesheet" href="./CSS/styles.css" />
+    <link rel="stylesheet" href="./CSS/potfolio.min.css" />
   </head>
 
   <body>
     <!--Шапка сайту-->
     <header class="header">
-      <div class="container header__container">
+      <div class="header__container">
         <nav class="header__nav">
-          <a class="logo header__logo" lang="en" href="./index.html">
+          <a class="header__logo" lang="en" href="./index.html">
             Web<span class="logo__text">Studio</span></a
           >
-          <ul class="header__list">
-            <li class="header__item">
-              <a class="header__link" href="./index.html">Студия</a>
+          <ul class="nav">
+            <li class="nav__item">
+              <a class="nav__link" href="./index.html">Студия</a>
             </li>
-            <li class="header__item header__link--current">
-              <a class="header__link" href="./portfolio.html">Портфолио</a>
+            <li class="nav__item">
+              <a class="nav__link nav__link--current" href="./portfolio.html"
+                >Портфолио</a
+              >
             </li>
-            <li class="header__item">
-              <a class="header__link" href="">Контакты</a>
+            <li class="nav__item">
+              <a class="nav__link" href="">Контакты</a>
             </li>
           </ul>
         </nav>
@@ -64,7 +62,7 @@
     <main>
       <section class="section">
         <div class="container">
-          <h1 class="section__title--visually-hidden">Нашы роботы</h1>
+          <h1 class="section__title visually-hidden">Нашы роботы</h1>
           <!-- Фільтр -->
           <ul class="control">
             <li class="control__item">
@@ -314,7 +312,7 @@
     <footer class="footer">
       <div class="container footer__container">
         <div>
-          <a class="logo footer__logo" lang="en" href="./index.html">
+          <a class="footer__logo" lang="en" href="./index.html">
             Web<span class="logo__text--inversion">Studio</span></a
           >
           <address class="adress">
