@@ -1,10 +1,10 @@
 .header {
   border-bottom: 1px solid #ececec;
-  &__container {
-    @extend %container;
-    @include centered(null);
-  }
-  &__nav {
-    @include centered(null);
-  }
+}
+.header__container {
+  @extend %container;
+  @include centered(null);
+}
+.header__nav {
+  @include centered(null);
 }
