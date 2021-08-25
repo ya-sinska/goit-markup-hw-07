@@ -59,9 +59,8 @@
 }
 .product__text {
   padding: 20px 24px;
-  border-bottom: 1px solid #eeeeee;
-  border-right: 1px solid #eeeeee;
-  border-left: 1px solid #eeeeee;
+  border: 1px solid #eeeeee;
+  border-top: 0;
 }
 .product__title {
   color: $secondary-color;
